@@ -5,8 +5,8 @@ class Stlink < Formula
   head "https://github.com/stlink-org/stlink.git", branch: "testing"
 
   stable do
-    url "https://github.com/stlink-org/stlink/archive/refs/tags/v1.8.0.tar.gz"
-    sha256 "cff760b5c212c2cc480f705b9ca7f3828d6b9c267950c6a547002cd0a1f5f6ac"
+    url "https://github.com/stlink-org/stlink/archive/refs/tags/v1.9.0.tar.gz"
+    sha256 "7a0b6b9f2e9c23fd6a055708b668553603faa1e1ef120f5ae4e564d7599d3e9b"
 
     patch do
       url "https://github.com/stlink-org/stlink/commit/4eafbb29d106b32221c8d3b375b31d78f07de182.patch?full_index=1"
